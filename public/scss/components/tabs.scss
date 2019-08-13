@@ -1,0 +1,35 @@
+.component--tabs{
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    li{
+       margin-right: 30px;
+
+      a{
+        color: #757575;
+
+        &:before{
+          display: none;
+        }
+
+        &:hover{
+          opacity: 1;
+          color: #003C82;
+        }
+      }
+    }
+
+    .active{
+      a{
+        background: #FFFFFF;
+        box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+        border-radius: 3px;
+        padding: 16px 30px;
+        color: #003C82;
+      }
+    }
+  }
+}

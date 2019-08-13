@@ -1,0 +1,35 @@
+.cd-schedule{
+  .events{
+    .events-group{
+      ul{
+        .single-event{
+          span{
+            display: block;
+          }
+
+          &-actions{
+            margin-top: 8px;
+
+            a{
+              font-size: 18px;
+              font-weight: bold;
+              margin-right: 10px;
+
+              &:last-child{
+                margin-right: 0;
+              }
+
+              &:before{
+                display: none;
+              }
+
+              .icon-trash{
+                color: #DA3A3A;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.modal{
+  &-content{
+    background: #FFFFFF;
+    box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+    border: none;
+  }
+
+  &-header{
+    border-bottom: none;
+    padding: 40px;
+  }
+
+  &-footer{
+    border-top: none;
+    padding: 0 40px 40px 40px;
+    justify-content: flex-start;
+  }
+
+  &-backdrop{
+    background-color: #F5F9FD;
+  }
+
+  &-backdrop.show{
+    opacity: 0.85;
+  }
+}

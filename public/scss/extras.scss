@@ -1,0 +1,21 @@
+.space{
+  margin-bottom: 20px;
+  height: 1px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullHeight{
+  height: 100%;
+  margin: 0;
+}

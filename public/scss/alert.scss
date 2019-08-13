@@ -1,0 +1,24 @@
+.alert{
+  margin-bottom: 45px;
+
+  i{
+    font-size: 20px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+  }
+
+  &-danger{
+    background-color: #FFE3E3;
+    border: none;
+    color: #DA3A3A;
+    padding: 15px 25px;
+  }
+
+  &-success{
+    background-color: #D9F8D5;
+    border: none;
+    color: #59C049;
+    padding: 15px 25px;
+  }
+}
